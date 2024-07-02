@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: blue;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+main {
+    padding: 20px;
+}
+
+.back-button {
+    margin-bottom: 20px;
+}
+
+.back-button a img {
+    width: 30px;
+    height: 30px;
+}
+
+.train-schedule {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.train {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.train-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.train-info h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.departure, .arrival {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dots {
+    text-align: center;
+}
+
+.dots span {
+    display: block;
+}
+
+.train-classes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.class img {
+    width: 20px;
+    height: 20px;
+}
+
+.class span {
+    font-size: 14px;
+}

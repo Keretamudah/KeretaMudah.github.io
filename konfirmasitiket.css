@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: blue;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+main {
+    padding: 20px;
+}
+
+.ticket-info {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.ticket-info p {
+    margin: 10px 0;
+}
+
+.ticket-info .arrow {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.passenger-details {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.passenger-details h2 {
+    margin-top: 0;
+}
+
+.passenger-details p {
+    margin: 10px 0;
+}
+
+.passenger-details a {
+    color: blue;
+    text-decoration: none;
+}
+
+.pay-button {
+    display: flex;
+    justify-content: center;
+}
+
+.pay-button button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pay-button button:hover {
+    background-color: #333;
+}

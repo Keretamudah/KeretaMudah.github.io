@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeretaMudah - Jadwal Tiket Kereta Api</title>
+    <link rel="stylesheet" href="penjadwalantiket.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Kereta<span>Mudah</span></div>
+            <ul>
+                <li><a href="tampilan.html">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Faqs</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <div class="profile">
+                <img src="profile-pic.png" alt="Profile Picture">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="form-container">
+            <h1>Jadwal Tiket kereta api</h1>
+            <form>
+                <div class="form-group">
+                    <label for="stasiun-awal">
+                        <!-- <input type="text" id="jj" placeholder="Dari"> -->
+                        <label for="Dari">Dari </label>
+                        <select id="jj" name="jarak jauh" >
+                            <option value="Stasiun pasar senen">Stasiun pasar senen</option>
+                            <option value="Stasiun jatinegara">Stasiun jatinegara</option>
+                            <option value="Stasiun bekasi">Stasiun bekasi</option>
+                            <option value="Stasiun cikarang">Stasiun cikarang</option>
+                            <option value="Stasiun indramayu">Stasiun indramayu</option>
+                            <option value="Stasiun bandung">Stasiun bandung</option>
+                            <option value="Stasiun cirebon">Stasiun cirebon</option>
+                            <option value="stasiun Brebes">Stasiun brebes</option>
+                            <option value="Stasiun tegal">Stasiun tegal</option>
+                            <option value="Stasiun pekalongan">Stasiun pekalongan</option>
+                            <option value="Stasiun semarang">Stasiun semarang</option>
+                            <option value="Stasiun puwokerto">Stasiun puwokerto</option>
+                            <option value="Stasiun yogyakarta">Stasiun yogyakarta</option>
+                            <option value="Stasiun surabaya">Stasiun surabaya</option>
+                          </select>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="stasiun-tujuan">
+                        <label>Jarak jauh</label>
+                    <select id="jj" name="jarak jauh">
+                        <option value="Stasiun pasar senen">Stasiun pasar senen</option>
+                        <option value="Stasiun jatinegara">Stasiun jatinegara</option>
+                        <option value="Stasiun bekasi">Stasiun bekasi</option>
+                        <option value="Stasiun cikarang">Stasiun cikarang</option>
+                        <option value="Stasiun indramayu">Stasiun indramayu</option>
+                        <option value="Stasiun bandung">Stasiun bandung</option>
+                        <option value="Stasiun cirebon">Stasiun cirebon</option>
+                        <option value="stasiun Brebes">Stasiun brebes</option>
+                        <option value="Stasiun tegal">Stasiun tegal</option>
+                        <option value="Stasiun pekalongan">Stasiun pekalongan</option>
+                        <option value="Stasiun semarang">Stasiun semarang</option>
+                        <option value="Stasiun puwokerto">Stasiun puwokerto</option>
+                        <option value="Stasiun yogyakarta">Stasiun yogyakarta</option>
+                        <option value="Stasiun surabaya">Stasiun surabaya</option>
+                      </select><br><br>
+                </div>
+                    </label>
+                <div class="form-group">
+                    <label for="tanggal-pergi">Tanggal Pemesanan</label>
+                    <input type="date" id="tanggal-pergi" placeholder="Tanggal Pergi">
+                </div>
+                <div class="form-group">
+                    <label for="jumlah-penumpang">Jumlah Penumpang</label>
+                    <input type="number" id="jumlah-penumpang" placeholder="Penumpang" min="1">
+                </div>
+                <button type="submit">Cari Tiket</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

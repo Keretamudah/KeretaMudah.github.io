@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeretaMudah</title>
+    <link rel="stylesheet" href="warna.css">
+    <style>
+        .popular-tickets {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.popular-tickets h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tickets {
+    display:inline-flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    
+}
+
+.ticket {
+    width: 20%;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.ticket img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.ticket .info {
+    padding: 10px;
+    text-align: center;
+}
+
+.ticket .info span {
+    font-weight: bold;
+}
+
+.ticket .info button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.ticket .info button:hover {
+    background-color: #45a049;
+}
+
+.lihat-semua {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.lihat-semua:hover {
+    background-color: #45a049;
+}
+
+/* header txt */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.button {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.button:hover {
+    background-color: #0b7dda;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span style="color: red;">Kereta</span><span style="color: blue;">Mudah</span>
+        </div>
+        <nav>
+            <a href="tampilan.html">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Faqs</a>
+            <a href="Contact.us.html">Contact us</a>
+            <a class="button" href="tampilan.html">Logout</a>
+        </nav>
+    </header>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Selamat Datang Di <span class="red">Kereta</span><span class="blue">Mudah</span></h1>
+            <p>Jadikan perjalanan anda lebih menyenangkan dengan tiket kereta yang terjamin</p>
+        </div>
+    </section>
+   
+    <section class="popular-tickets">
+        <h2>Tiket Populer</h2>
+        <div class="tickets">
+            <div class="ticket">
+                <img src="jakarta-surabaya.jpeg" alt="Jakarta ke Surabaya">
+                <div class="info">
+                    <span>Jakarta</span> - <span>Surabaya</span>
+                    <br>
+                    <button>BUY</button>
+                </div>
+            </div>
+            <div class="ticket">
+                <img src="jakarta-bandung.jpg" alt="Jakarta ke Bandung">
+                <div class="info">
+                    <span>Jakarta</span> - <span>Bandung</span>
+                    <br>
+                    <button>BUY</button>
+                </div>
+            </div>
+            <div class="ticket">
+                <img src="jakarta-semarang.jpg" alt="Jakarta ke Semarang">
+                <div class="info">
+                    <span>Jakarta</span> - <span>Semarang</span>
+                    <br>
+                    <button>BUY</button>
+                </div>
+            </div>
+        </div>
+        <button class="lihat-semua">Lihat Semua</button>
+    </section>
+    <section class="pilihan">
+        <h2>Pilihan</h2>
+        <div class="options">
+            <div class="option">
+                <img src="jarakjauh.jpg" alt="Antar Kota">
+                <br>
+                <span>
+                    <a href="inputcs.html"><button>jarakjauh</button>
+                </span>
+            </div>
+            <div class="option">
+                <img src="keretacepat.jpg" alt="Kereta Cepat">
+                <br>
+                <span>
+                    <a href="input_cepat.html"><button>keretacepat</button>
+                </span>
+            </div>
+            <div class="option">
+                <img src="krl.jpg" alt="KRL">
+                <br>
+                <span>
+                    <a href="input_krl.html"><button>krl</button></a>
+                </span>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <h2><span class="red">Kereta</span><span class="blue">Mudah</span></h2>
+        <p id="about">keretamudah merupakan platform untuk menyediakan penjualan tiket yang efisien dan berkualitas tinggi kepada pengguna. kami berusaha menyediakan pengalaman yang lancar dan dipercayai dalam pembelian dan penjualan tiket, dengan menyediakan berbagai pilihan dan kemudahan yang mudah digunakan. kami berusaha untuk menjadi destinasi utama bagi pelanggan yang mencari tiket untuk perjalanan mereka dengan memberikan dukungan pelanggan yang cemerlang dan memberikan kepuasan pelanggan sebagai keutamaan utama kami.</p>
+        <div class="video-container">
+            <br>
+            <video controls>
+                <source src="video website.mp4" type="video/mp4">
+            </video>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3><span class="red">kereta</span><span class="blue">Mudah</span></h3>
+                <p>Layanan Booking tiket kereta api online melalui www.KeretaMudah.com, Beli tiket kereta api jadi cepat nyaman dan mudah.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Faqs</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Hubungi Kami</h3>
+                <p>Telepon: 08114-222567 (hunting)</p>
+                <p>Layanan pelanggan tersedia pukul 08:00 - 21:00</p>
+                <p>Email: TiketKeretaMudah@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Ikuti Kami</h3>
+                <div class="social">
+                    <a href="#"><img src="instagram.jpeg" alt="Instagram"></a>
+                    <a href="#"><img src="facebook.jpeg" alt="Facebook"></a>
+                    <a href="#"><img src="googleplay.jpeg" alt="Google Play"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
